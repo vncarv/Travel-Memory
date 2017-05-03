@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+    android:id="@+id/grid_item_label"
+    android:layout_width="180dp"
+    android:layout_height="180dp"
+    android:text="@+id/label"
+    android:textSize="22dp" 
+    android:textStyle="italic"
+    android:gravity="center">
+</TextView>
+
+</GridLayout>

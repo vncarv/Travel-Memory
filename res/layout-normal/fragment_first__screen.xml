@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:id="@+id/main_layout" >
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.memorymap.First_Screen$PlaceholderFragment"
+    android:background="@drawable/map" >
+
+
+   
+
+    <ImageView
+        android:id="@+id/add_notes"
+        android:layout_width="180dip"
+        android:layout_height="150dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dip"
+        android:text="@string/add_notes" 
+        android:src="@drawable/notes_icon"/>
+
+    <ImageView
+        android:id="@+id/travel_history"
+        android:layout_width="180dip"
+        android:layout_height="150dip"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/history_icon"
+        android:text="@string/view_travel_history" />
+
+    <ImageView
+        android:id="@+id/click_photos"
+        android:layout_width="180dip"
+        android:layout_height="150dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="40dip"
+        android:text="@string/click_photos"
+        android:src="@drawable/camera" />
+
+
+</RelativeLayout>
+    
+<RelativeLayout 
+       android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.memorymap.SplashScreen"
+    android:background="@drawable/instructions" 
+    android:id="@+id/top_layout">
+ 
+    </RelativeLayout>
+
+</FrameLayout>

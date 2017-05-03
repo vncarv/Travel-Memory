@@ -1,0 +1,15 @@
+<LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+         <FrameLayout
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:layout_marginRight="10dp"
+           android:name="com.google.android.gms.maps.SupportMapFragment"
+           android:id="@+id/mapwhere" />
+         
+        </LinearLayout>

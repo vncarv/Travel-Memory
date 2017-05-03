@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="#000000">
+<ToggleButton 
+        android:id="@+id/actionbar_service_toggle"
+        android:layout_height="fill_parent"
+        
+        android:layout_width="40dip"
+        android:layout_margin="5dip"
+        android:textOn=""
+        android:textOff=""
+        android:background="@drawable/check"
+        android:focusable="false"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+        android:focusableInTouchMode="false"/>
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="14dip"
+    android:layout_height="fill_parent"
+    android:layout_marginRight="50dip"
+    android:layout_alignParentRight="true"
+    android:text="SERVICE"
+    android:textAlignment="center"
+    android:textSize="13dip"
+    android:gravity="right" />
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:text="Travel Memory"
+    android:textSize="18dip"
+    android:typeface="sans"
+    android:gravity="center_vertical" />
+
+</RelativeLayout>
